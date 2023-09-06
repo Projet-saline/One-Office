@@ -1,0 +1,25 @@
+Texte d'information à l'attention de Maedeh et de Nicolas.
+
+Hello à vous ! 
+
+Juste quelques petites informations si jamais vous avez des galères : 
+
+- N'oubliez pas de qualifié un import de chaqu'une de vos fiches de style dans le fichier Index.scss pour que le rendu se fasse
+- N'oubliez pas de mettre "_" devant vos noms de fiche .scss, pour optimiser le pré-rendus (Exemple : _Home.scss)
+- Un Component à sa place dans le fichier component et sa fiche de style dédiée dans le fichier Style/Component, nommez le de la même façon que le components pour une relecture facile
+- Lancez ça avant le démarage : 
+    - $ npm install sass
+    - $ npm install scss
+    - $ npm install react-router-dom
+
+
+Ecrivez du Css de base dans vos fichier scss, à moins que vous ne connaissiez les fonctions propre à scss, alors dans ce cas have fun :D
+J'ai déjà importer comme exemple la page Home avec deux components qui sont la Navbar et le Footer, pas exactement bien rendus mais je regarderai ça après pourquoi
+
+Sinon mis à part ça je n'ai rien à ajouter ou qui me vienne à l'esprit, ping me sur discord si jamais.
+
+Me supprimer ce fichier txt avant de faire vos push sur git pour ne pas que l'on voit ces consignes
+
+Have fun coding ! 
+
+- Stanley
