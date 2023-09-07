@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './styles.scss';
 
-export const Register = () => {
+
+const Register = () => {
   const [form, setForm] = useState({
     name: '',
     country: '',
@@ -22,7 +22,9 @@ export const Register = () => {
   };
 
   return (
-    <div className="register-container">
+    <div className="image-background">
+          <div className="register-container">
+
       <h1 className="title">Register</h1>
       <div className="all-input">
         <form onSubmit={handleSubmit}>
@@ -50,7 +52,9 @@ export const Register = () => {
             <span className="button-text">Create</span>
           </button>
         </form>
+        </div>
       </div>
-    </div>
+      </div>
   );
 };
+ export default Register;
