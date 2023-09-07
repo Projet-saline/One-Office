@@ -1,20 +1,54 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
+const navbarSettings = [
+    {
+        name: 'Courses',
+        link: '/courses'
+    },
+    {
+        name: 'Blog',
+        link: '/blog'
+    },
+    {
+        name: 'News',
+        link: '/news'
+    },
+    {
+        name: 'Sign in',
+        link: '/sign-in',
+        className: 'Auth'
+    },
+    {
+        name: 'Register',
+        link: 'register',
+        className: 'Auth'
+    }
+]
 
 const Navbar = () =>{
-
-
     return(
         <>
             <div className="Navbar-All">
                 <div className="Logo">
-                    <img src="https://assets.website-files.com/61ae28f54843d30203fad6db/61c20adcfff22fd7c76d8911_Group%202620.svg" alt="Logo"/>
+                    <Link to='/'>
+                        <img 
+                            src="https://assets.website-files.com/61ae28f54843d30203fad6db/61c20adcfff22fd7c76d8911_Group%202620.svg" 
+                            alt="Logo"
+                        />
+                    </Link>
                 </div>
                 <div className="Menu">
-                    <p>Courses</p>
-                    <p>Blog</p>
-                    <p>News</p>
-                    <p className="Sign">Sign in</p>
+                    {
+                        navbarSettings.map((setting) =>
+                            <Link 
+                                className={`Link ${setting?.className && setting.className}`}
+                                to={setting.link}
+                            >
+                                {setting.name}
+                            </Link>
+                        )
+                    }
                 </div>
             </div>
         </>

@@ -1,6 +1,10 @@
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+$height-navbar : 50px;
+$padding-navbar : 1rem;
+$all-height-navbar : calc($height-navbar + ($padding-navbar * 2));
+
 /*Color of fonts/bars and so on*/
 $primary-500 : #171c3b;
 $primary-400 : #454962;
@@ -75,6 +79,10 @@ $focus-50 : #f2f9ff;
 .root {
     display: flex;
     flex-direction: column;
+}
+
+body {
+    background-color: $primary-400;
 }
 
 // Typography styles
