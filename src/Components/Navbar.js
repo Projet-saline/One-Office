@@ -14,11 +14,6 @@ const navbarSettings = [
         name: 'News',
         link: '/news'
     },
-    {
-        name: 'Sign in',
-        link: '/sign-in',
-        className: 'Auth'
-    },
 ]
 
 const Navbar = () =>{
