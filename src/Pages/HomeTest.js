@@ -3,6 +3,7 @@ import Card from "../Components/Card";
 import ChartFreePre from "../Components/ChartFreePre";
 import GraphPage from "../Components/Graph";
 import VericalBarChart from "../Components/VerticalBarChart";
+import HoraireGraph from "../Components/HoraireGraph";
 
 const HomeTest = () =>  {
 
@@ -13,6 +14,7 @@ const HomeTest = () =>  {
             <ChartFreePre/>
             <GraphPage/>
             <VericalBarChart/>
+            <HoraireGraph/>
         </div>
     )
 }
