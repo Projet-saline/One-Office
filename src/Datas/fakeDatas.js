@@ -89,7 +89,7 @@ export const heureData = {
             data: horaire.map(() => faker.datatype.number({ min: 0, max: 6 })),
             backgroundColor: 'rgba(255, 99, 132, 0.5)',
         }
-    ]
+    ],
 };
 
 export const studyData = {

@@ -14,6 +14,10 @@ const navbarSettings = [
         name: 'News',
         link: '/news'
     },
+    {
+        name: "Faq",
+        link: '/faq'
+    }
 ]
 
 const Navbar = () =>{
