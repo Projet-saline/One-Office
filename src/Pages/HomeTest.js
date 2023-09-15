@@ -8,6 +8,8 @@ import NumberStudy from "../Components/NumberStudy";
 import NumberProfessors from "../Components/NumberProfessors";
 import CardFreePre from "../Components/CardFreePre";
 import CardAllCurses from "../Components/CardAllCurses";
+import PresentationProf from "../Components/PresentationProf";
+
 
 const HomeTest = () =>  {
 
@@ -23,6 +25,7 @@ const HomeTest = () =>  {
             <NumberProfessors/>
             <CardFreePre/>
             <CardAllCurses/>
+            <PresentationProf/>
         </>
     )
 }
