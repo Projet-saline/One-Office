@@ -20,7 +20,7 @@
 //   Tooltip,
 //   Legend
 // );
-import React from "react";
+import React from 'react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -29,8 +29,8 @@ import {
   Title,
   Tooltip,
   Legend,
-} from "chart.js";
-import { Bar } from "react-chartjs-2";
+} from 'chart.js';
+import { Bar } from 'react-chartjs-2';
 import { statusData } from "../Datas/fakeDatas";
 
 ChartJS.register(
@@ -44,6 +44,7 @@ ChartJS.register(
 
 const VericalBarChart = ({ data, title }) => {
   const options = {
+    type: 'bar',
     responsive: true,
     plugins: {
       legend: {
@@ -63,7 +64,9 @@ const VericalBarChart = ({ data, title }) => {
 
   return (
     <div className="Container">
-      <Bar options={options} data={data || statusData} />
+      {/* <Bar options={'options'} data={data || statusData} /> */}
+       <Bar options={options} data={data || statusData} />;
+
     </div>
   );
   //   return <Bar options={options} data={data || DEFAULT_DATA} />;

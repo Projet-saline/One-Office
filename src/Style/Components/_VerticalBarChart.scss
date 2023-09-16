@@ -1,4 +1,6 @@
-.Container{
-    height: 10rem;
-    width: auto;
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
