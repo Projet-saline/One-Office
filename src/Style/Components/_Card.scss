@@ -10,10 +10,29 @@
     height: 70vh;
     background-color: rgba($primary-500, 0.4);
     gap: 2rem;
+    color: white;}
+    
+@media screen and (max-width: 494px){
+    .Card {
+            margin: 2rem auto;
+    border: 1px solid #000; 
+    border-radius: 1rem;
+    width: 40vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    background-color: rgba($primary-500, 0.4);
+    gap: 2rem;
     color: white;
+        }
 
-    @media (max-width: 768px) {
-        width: 95%; 
-        border-radius: 0.5rem; 
+        h3,h6{
+            align-items: center;
+            font-size: 1,5rem;
+            width: auto;
+            margin: 0;
+        }
     }
-}

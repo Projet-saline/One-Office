@@ -8,7 +8,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const apiUrl = 'https://monapi.com/chemin';  // Remplacez par votre URL d'API
+      const apiUrl = 'https://monapi.com/chemin';  
       const response = await axios.get(apiUrl);
       setData(response.data);
     } catch (error) {
