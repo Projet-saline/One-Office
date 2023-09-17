@@ -36,7 +36,7 @@
     flex-direction: column;
     justify-content: flex-end;
     margin-right: 5vw;
-
+    
 }
 
 .Footer-element > p {
@@ -44,6 +44,7 @@
     padding-bottom: 0.5rem;
     text-align: right;
     cursor: pointer;
+    
 }
 
 .Footer-element > p:hover {
@@ -100,3 +101,97 @@
         }
     }
 }
+
+// Footer.scss
+// .Footer {
+//     width: 100vw;
+//     height: 15vh;
+//     background-color: $primary-500;
+//     color: $primary-50;
+//     padding: 1rem;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center; /* Centrer le contenu verticalement */
+  
+//     h1 {
+//       font-size: 2rem;
+//       margin: 0;
+//     }
+  
+//     p {
+//       font-size: 0.8rem;
+//       margin: 0;
+//     }
+  
+//     .Footer-menu {
+//       width: 70%;
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       justify-content: center;
+//       margin-right: 5%;
+  
+//       .Footer-element {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: flex-end;
+//         align-items: center;
+//         margin-bottom: 1rem;
+  
+//         p {
+//           margin-left: 0;
+//           padding-bottom: 0.5rem;
+//           text-align: center;
+//           cursor: pointer;
+//         }
+  
+//         p:hover {
+//           color: $secondary-300;
+//         }
+//       }
+//     }
+  
+//     .Logo {
+//       width: 30%;
+//       display: flex;
+//       justify-content: flex-start; 
+//       align-items: center; 
+//       margin-left: 5%;
+//     }
+  
+//     .social-links {
+//       display: flex;
+//       align-items: center; 
+//       justify-content: flex-end; 
+  
+//       a {
+//         margin-left: 1rem; 
+//         display: flex; 
+//         align-items: center; 
+  
+//         img {
+//           width: 1.5rem;
+//           height: 1.5rem;
+//           filter: invert(100%); 
+  
+//           &:hover {
+//             filter: invert(60%) sepia(20%) saturate(923%) hue-rotate(192deg) brightness(106%) contrast(98%);
+//           }
+//         }
+//       }
+//     }
+//   }
+  
+//   /* Mobile variant */
+//   @media screen and (max-width: 768px) {
+//     .Footer {
+//       height: 5vh;
+//       h1 {
+//         font-size: 2rem;
+//       }
+//       p {
+//         font-size: 1.2rem;
+//       }
+//     }
+//   }
+  
