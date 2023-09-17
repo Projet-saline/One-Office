@@ -1,7 +1,7 @@
 import faker from 'faker';
 
 export const lastYears = ['2020', '2021', '2022', '2023'];
-export const horaire = ['00', '01', '02', '03', '04', '05', '06'];
+export const horaire = ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12' ];
 export const allSubject = [
     'Voix', 
     'Violon', 
@@ -85,11 +85,12 @@ export const professorsData = {
     datasets: [
         {
             label: 'Professeurs',
-            data: allSubject.map(() => faker.datatype.number({ min: 2, max: 12 })),
+            data: [6, 15, 22, 10, 4, 4, 1, 6, 2, 2], 
             backgroundColor: 'rgba(255, 99, 132, 0.5)',
         },
     ],
-};  
+};
+
 
 export const heureData = {
     labels: horaire,
