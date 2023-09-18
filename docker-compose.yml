@@ -1,9 +1,8 @@
 version: '3'
-
 services:
-  frontend:
+  react-app:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 5000:5000
+      - "3001:80"
